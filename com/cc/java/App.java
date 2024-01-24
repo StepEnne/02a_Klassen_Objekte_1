@@ -16,9 +16,9 @@ public class App {
 //    System.out.println(cat.tellYourFur());
 //    System.out.println(cat.tellYourAge());
     
-        output(cat.tellYourName());
-        output(cat.tellYourFur());
-        output(String.valueOf(cat.tellYourAge())); //int -->string
+    output(cat.tellYourName());
+    output(cat.tellYourFur());
+    output(String.valueOf(cat.tellYourAge())); //int -->string
 
         
     System.out.println("----------------------------");
@@ -28,6 +28,10 @@ public class App {
     cat2.name = "Grizabella";
     cat2.furcolor = "white";
     cat2.age = 29;
+
+    output(cat2.tellYourName());
+    output(cat2.tellYourFur());
+    output(Integer.toString(cat2.tellYourAge()));
     
 //    System.out.println(cat2.tellYourName());
 //    System.out.println(cat2.tellYourFur());
