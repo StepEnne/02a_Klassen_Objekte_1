@@ -4,26 +4,25 @@ public class Cat {
 
   
 
-String name;
-String furcolor;
-int age;
+    String name;
+    String furcolor;
+    int age;
 
-public String tellYourName(){
-    return this.name;
-}
-
-public String tellYourFur(){
-    return this.furcolor;
-}
-
-public int tellYourAge(){
-    return this.age;
-}
-
-
-    public void tellYourAdress(){
-        System.out.println(this);
-
+    public String tellYourName(){
+        return this.name;
     }
 
+    public String tellYourFur(){
+        return this.furcolor;
+    }
+
+    public int tellYourAge(){
+        return this.age;
+    }
+
+
+        public void tellYourAdress(){
+            System.out.println(this);
+
+        }
 }
