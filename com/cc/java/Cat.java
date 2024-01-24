@@ -8,10 +8,16 @@ String name;
 String furcolor;
 int age;
 
-public void tellYourName(){
+public String tellYourName(){
+    return this.name;
+}
 
-System.out.println(this.name);
+public String tellYourFur(){
+    return this.furcolor;
+}
 
+public int tellYourAge(){
+    return this.age;
 }
 
 

@@ -10,11 +10,11 @@ public class App {
     cat.furcolor = "grey";
     cat.age = 35;
     
-//    cat.tellYourAdress();
-    //    cat.tellYourName();   
-    System.out.println(cat.name);
-    System.out.println(cat.furcolor);
-    System.out.println(cat.age);
+    // Ausgabe
+   
+    System.out.println(cat.tellYourName());
+    System.out.println(cat.tellYourFur());
+    System.out.println(cat.tellYourAge());
 
     System.out.println("----------------------------");
 
@@ -24,9 +24,9 @@ public class App {
     cat2.furcolor = "white";
     cat2.age = 29;
     
-    System.out.println(cat2.name);
-    System.out.println(cat2.furcolor);
-    System.out.println(cat2.age);
+    System.out.println(cat2.tellYourName());
+    System.out.println(cat2.tellYourFur());
+    System.out.println(cat2.tellYourAge());
     }
 
 //    cat.tellYourName();      
