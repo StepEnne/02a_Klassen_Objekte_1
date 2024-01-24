@@ -31,7 +31,7 @@ public class App {
 
     output(cat2.tellYourName());
     output(cat2.tellYourFur());
-    output(Integer.toString(cat2.tellYourAge()));
+    output(Integer.toString(cat2.tellYourAge()));  //geht auch
     
 //    System.out.println(cat2.tellYourName());
 //    System.out.println(cat2.tellYourFur());
