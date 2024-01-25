@@ -4,11 +4,8 @@ public class App {
     
     public static void main(String[] args) {
     //Objekt entsteht
-    Cat cat = new Cat();        //Instanziierung, erzeuge aus einer klasse ein objekt
+    Cat cat = new Cat("Alonzo", "grey", 35);        //Instanziierung, erzeuge aus einer klasse ein objekt
     //Wertzuweisung
-    cat.name = "Alonzo";
-    cat.furcolor = "grey";
-    cat.age = 35;
     
     // Ausgabe
    
@@ -23,11 +20,7 @@ public class App {
         
     System.out.println("----------------------------");
 
-    Cat cat2 = new Cat();
-
-    cat2.name = "Grizabella";
-    cat2.furcolor = "white";
-    cat2.age = 29;
+    Cat cat2 = new Cat("Grizabella", "white", 29);
 
     output(cat2.tellYourName());
     output(cat2.tellYourFur());

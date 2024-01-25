@@ -8,6 +8,14 @@ public class Cat {
     String furcolor;
     int age;
 
+    
+
+    public Cat(String name, String furcolor, int age) {
+        this.name = name;
+        this.furcolor = furcolor;
+        this.age = age;
+    }
+
     public String tellYourName(){
         return this.name;
     }
