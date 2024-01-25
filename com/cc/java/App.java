@@ -13,18 +13,18 @@ public class App {
 //    System.out.println(cat.tellYourFur());
 //    System.out.println(cat.tellYourAge());
     
-    output(cat.tellYourName());
-    output(cat.tellYourFur());
-    output(String.valueOf(cat.tellYourAge())); //int -->string
+    output(cat.getName());
+    output(cat.getFurcolor());
+    output(String.valueOf(cat.getAge())); //int -->string
 
         
     System.out.println("----------------------------");
 
     Cat cat2 = new Cat("Grizabella", "white", 29);
 
-    output(cat2.tellYourName());
-    output(cat2.tellYourFur());
-    output(Integer.toString(cat2.tellYourAge()));  //geht auch
+    output(cat2.getName());
+    output(cat2.getFurcolor());
+    output(Integer.toString(cat2.getAge()));  //geht auch
     
 //    System.out.println(cat2.tellYourName());
 //    System.out.println(cat2.tellYourFur());
