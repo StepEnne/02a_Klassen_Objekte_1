@@ -30,10 +30,6 @@ public class Cat {
         return furcolor;
     }
 
-    public void setFurcolor(String furcolor) {
-        this.furcolor = furcolor;
-    }
-
     public int getAge() {
         return age;
     }
@@ -48,10 +44,4 @@ public class Cat {
 
     }
 
-
-
-    //    public void tellYourAdress(){
-    //        System.out.println(this);
-
-    //    }
 }
